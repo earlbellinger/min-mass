@@ -27,7 +27,7 @@ for (DF in DFs) {
             pos=4)
 }
 
-abline(v=log10(13.799*10**9), lty=2)
+abline(v=log10(13.799*10**9), lty=2, lwd=1.5)
 
 magaxis(1:4, labels=c(T,T,F,F), unlog='xy', las=1, lwd.ticks=1.5)
 box(lwd=1.5)
